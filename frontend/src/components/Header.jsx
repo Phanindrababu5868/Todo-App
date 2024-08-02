@@ -8,7 +8,7 @@ const Headers = () => {
   console.log(!authToken);
   return (
     <nav>
-      <span className="app-title">MyNotes</span>
+      <span className="app-title">MyTodo app</span>
       {authToken !== null && (
         <button
           id="logout-btn"

@@ -51,7 +51,7 @@ const Auth = () => {
 
   return (
     <div id="auth-section">
-      <h1>My Notes</h1>
+      <h1>My Todo app</h1>
       <div id="auth-forms">
         {activeForm === "register" ? (
           <form id="register-form" onSubmit={onSubmit}>
